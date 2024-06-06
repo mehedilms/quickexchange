@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickExchange - Currency Converter</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrQkzG1zExwFr1fczcQ2JpS0F7OHYl++HgUqRO9r6tHzB0g9EpPfWc5NlPiG3hJYPst69C+Eo4Z+f8+sdw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <h1><i class="fas fa-money-bill-wave"></i> QuickExchange</h1>
+        <form id="currency-form">
+            <div class="form-group">
+                <label for="amount">Amount:</label>
+                <input type="number" id="amount" placeholder="Enter amount" required>
+            </div>
+            <div class="form-group">
+                <label for="from-currency">From:</label>
+                <select id="from-currency">
+                    <!-- Currency options will be added by JavaScript -->
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="to-currency">To:</label>
+                <select id="to-currency">
+                    <!-- Currency options will be added by JavaScript -->
+                </select>
+            </div>
+            <button type="submit"><i class="fas fa-exchange-alt"></i> Convert</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

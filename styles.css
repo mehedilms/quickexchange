@@ -1,0 +1,101 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #4b79a1, #283e51);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #fff;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    width: 350px;
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #fff;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input, select {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+
+input::placeholder {
+    color: #fff;
+}
+
+button {
+    background-color: #f39c12;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+}
+
+button:hover {
+    background-color: #e67e22;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='white' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M0 0h24v24H0z' fill='none'/><path d='M7 10l5 5 5-5z'/></svg>");
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 50%;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+}
+
+i {
+    margin-right: 5px;
+}
